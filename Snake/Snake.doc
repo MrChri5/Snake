@@ -1,0 +1,33 @@
+<docs>
+<members name="Snake">
+<Apple>
+<summary> 
+This class randomly generates an <c>Apple</c> for the game Snake.
+</summary>
+<returns>
+A new <c>Apple</c> at a randomly generated location in the game area.
+</returns>
+<param name="map"> 
+A matrix <c>char[,]</c> that details the board layout, any other Apples already on the board, and (optional) the <c>Snake</c> head or body. The new apple will only be placed in an empty location on this board.
+</param>
+<param name="seed"> 
+An integer to help when creating multiple Apples at once. Leave as 0 if only creating a single Apple in a short timeframe. 
+</param>
+</Apple>
+<X>
+<value>
+Gets the X coordinate of the <c>Apple</c>.
+</value>
+</X>
+<Y>
+<value>
+Gets the Y coordinate of the <c>Apple</c>.
+</value>
+</Y>
+<Location>
+<value>
+Gets the coordinate pair of the location of the <c>Apple</c>.
+</value>
+</Location>
+</members>
+</docs>
