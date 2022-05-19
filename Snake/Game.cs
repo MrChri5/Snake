@@ -135,6 +135,8 @@ namespace Snake
 
                 case 1:
                 default:
+                    //set mapNum incase came here via default case
+                    mapNum = 1;
                     //standard box                                     
                     map[0, height - 1] = '┌';
                     map[width - 1, height - 1] = '┐';
