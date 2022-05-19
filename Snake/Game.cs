@@ -31,9 +31,7 @@ namespace Snake
             //build map layout
             switch (mapNum)
             {
-                //## rooms, include one blocked from inside
-                //## pacman maze
-                //## 
+
                 case 5:
                     // random boulders
                   
